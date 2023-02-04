@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="DC.Title" content="Arthur Conan Doyle - Letters from the War">
+    <meta name="DC.Creator" content="Erica Andreose">
+    <meta name="DC.Subject" content="digital collection">
+    <meta name="DC.Subject" content="markup language">
+    <meta name="DC.Subject" content="XML-TEI">
+    <meta name="DC.Subject" schema="UDC" content="Scholarly editing and digital textuality">
+    <meta name="DC.Subject" schema="BNCF" content="Letters">
+    <meta name="DC.Subject" schema="BNCF" content="Mail">
+    <meta name="DC.Description" content="Project of SEDT for the analysis of the letters by Arthur Conan Doyle during the Boer War">
+    <meta name="DC.Publisher" content="Alma mater studiorum, Universita di Bologna, Digital Humanities and Digital Technologies">
+    <meta name="DC.Contributor" content="Erica Andreose">
+    <meta name="DC.Date" content="2022-12-12">
+    <meta name="DC.Type" content="Website">
+    <meta name="DC.Format" content="HTML/CSS/JS/XML-TEI">
+    <meta name="DC.Identifier" content="https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/"> <!--add website URL-->
+    <meta name="DC.Source" content="https://www.arthur-conan-doyle.com/index.php?title=Main_Page">
+    <meta name="DC.Language" content="it">
+    <meta name="DC.Relation" content="https://www.arthur-conan-doyle.com/index.php?title=Main_Page">
+    <meta name="DC.Rights" content="https://conandoyleestate.com/">
+
+    <!--CSS of Bootstrap-->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <!-- link stylesheet-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--link Bootstrap icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!--link google icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--link favicon per loghetto -->
+    <link rel="icon" href="favicon.jpg" type="immagini/jpg"/>
+    <!--link font google-->
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
+    
+
+    <title> Arthur Conan Doyle - Letters from the war </title>
+  </head>
+
+  <body class="body">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#"><h1 id="su"> Arthur Conan Doyle - Letters from the war</h1></a>
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Author
+              </a>
+              <div class="dropdown-menu bg-dark text-white" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item bg-dark text-white" href="#">Biography</a>
+                <a class="dropdown-item bg-dark text-white" href="#">Historical context</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#">
+                Letters<span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Multimedia
+              </a>
+              <div class="dropdown-menu bg-dark text-white" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item bg-dark text-white" href="catalogominiature.html">Maps</a> <!--change link-->
+                <a class="dropdown-item bg-dark text-white" href="#">Gallery</a>
+                <a class="dropdown-item bg-dark text-white" href="#">Comparison</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">|</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contacts</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="I'm looking for..." placeholder="I'm looking for..." aria-label="I'm looking for...">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+    	<div class="container-fluid" id="dark">
+    		<div class="row">
+    			<div class="col-md-12">
+    				<h2 class="text-light text-center">Letters</h2>
+    			</div>
+    		</div>
+
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb" id="dark">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Letters</li>
+          </ol>
+        </nav>
+      </div>
+
+      <div class="row">
+        <div class="col-md-2">
+          <aside>
+            <div class="checkbox-container">
+              <br>
+              <h3 class="mb-0 text-light">Order the list:</h3>
+              <br>
+                <div class="btn-group-toggle" data-toggle="buttons">
+                  <label class="btn btn-outline-light">
+                    <input type="radio" checked> 1899-1902
+                  </label>
+                  <label class="btn btn-outline-light">
+                    <input type="radio"> 1902-1899
+                  </label>
+                  <label class="btn btn-outline-light">
+                    <input type="radio"> Sending order
+                  </label>
+                </div>
+            </div>
+
+            <!--filtri-->
+            <div class="checkbox-container mt-4">
+              <h3 class="mb-0 text-white">Filter by:</h3>
+              <br>
+              <!-- dropdown menu per i filtri-->
+              <div class="dropdown dropright mt-1">
+                <button class="btn btn-outline-light dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Recipient </button>
+                <div class="dropdown-menu p-3">
+                  <!-- checkbox -->
+                  <input type="checkbox">
+                  <label>Mary Doyle</label><br>
+                  <input type="checkbox">
+                  <label>Sir Grant Richards</label><br>
+                  <input type="checkbox">
+                  <label>George Brown Burgin</label><br>
+                  <input type="checkbox">
+                  <label>Mr Smith Elder & co.</label><br>
+                  <input type="checkbox">
+                  <label>Irvine Burns Club</label><br>
+                  <input type="checkbox">
+                  <label>Unknown</label><br>
+                  <button type="button" class="btn btn-outline-dark">Search</button>
+                </div>
+              </div>
+              <div class="dropdown dropright mt-1">
+                <button class="btn btn-outline-light dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Destination </button>
+                <div class="dropdown-menu p-3">
+                  <!-- checkbox -->
+                  <input type="checkbox">
+                  <label>London</label><br>
+                  <input type="checkbox">
+                  <label>Paris</label><br>
+                  <input type="checkbox">
+                  <label>Berlin</label><br>
+                  <input type="checkbox">
+                  <label>South Africa</label><br>
+                  <input type="checkbox">
+                  <label>German</label><br>
+                  <button type="button" class="btn btn-outline-dark">Search</button>
+                </div>
+              </div>
+            </div>
+            <br>
+          </aside>
+        </div>
+    
+        <div class="col-md-9">
+          <br>
+          <!--nav-tav -->
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">All letters</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="1899-tab" data-toggle="tab" href="#1899" role="tab" aria-controls="1899" aria-selected="false">1899</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="1900-tab" data-toggle="tab" href="#1900" role="tab" aria-controls="1900" aria-selected="false">1900</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="1901-tab" data-toggle="tab" href="#1901" role="tab" aria-controls="1901" aria-selected="false">1901</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="1902-tab" data-toggle="tab" href="#1902" role="tab" aria-controls="1902" aria-selected="false">1902</a>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"><br></div>
+            <div class="tab-pane fade" id="1899" role="tabpanel" aria-labelledby="1899-tab"><br></div>
+            <div class="tab-pane fade" id="1900" role="tabpanel" aria-labelledby="1900-tab"><br></div>
+            <div class="tab-pane fade" id="1901" role="tabpanel" aria-labelledby="1901-tab"><br></div>
+          </div>
+
+          <div class="card-deck">
+            <div class="card">
+              <img src="immagini/07_1900.jpg" class="card-img-top" alt="Letter1">
+              <div class="card-body">
+                <h5 class="card-title">Letter 7</h5>
+                <p class="card-text">To: <strong>Sir Grant Richards</strong> </p>
+                <p class="card-text">From: <strong>Arthur Conan Doyle</strong></p>
+                <p class="card-text">Year:<strong>1899</strong></p>
+                <p class="card-text">Misures: <strong>14 x 21 cm</strong></p>
+                <p class="card-text">Transcription: <strong>Erica Andreose</strong></p>
+                <a href="letter1.html" class="btn text-dark btn-outline-dark">Explore</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="immagini/08_1900.jpg" class="card-img-top" alt="Letter 2">
+              <div class="card-body">
+                <h5 class="card-title">Letter 8</h5>
+                <p class="card-text">To: <strong>Mary Doyle</strong> </p>
+                <p class="card-text">From: <strong>Arthur Conan Doyle</strong></p>
+                <p class="card-text">Year:<strong>1899</strong></p>
+                <p class="card-text">Misures: <strong>14 x 21 cm</strong></p>
+                <p class="card-text">Transcription: <strong>Erica Andreose</strong></p>
+                <a href="letter2.html" class="btn text-dark btn-outline-dark">Explore</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="immagini/09_1900.jpg" class="card-img-top" alt="#">
+              <br>
+              <br>
+              <br>
+              <div class="card-body">
+                <h5 class="card-title">Letter 9</h5>
+                  <p class="card-text">To: <strong>Unknown</strong> </p>
+                  <p class="card-text">From: <strong>Arthur Conan Doyle</strong></p>
+                  <p class="card-text">Year:<strong>1899</strong></p>
+                  <p class="card-text">Misures: <strong>14 x 21 cm</strong></p>
+                  <p class="card-text">Transcription: <strong>Karolina Bergamo</strong></p>
+                  <a href="letter3.html" class="btn text-dark btn-outline-dark">Explore</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-1"> 
+          <aside>
+            <a href="#" style="color: black;"><i class="bi bi-patch-question-fill"></i>Guida</a>
+          </aside>
+        </div>
+      </div>
+      <br>
+      <br>
+  
+        <!--card seconda riga -->
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-9">
+            <div class="card-deck">
+              <div class="card">
+                <img src="immagini/10_1900.jpg" class="card-img-top" alt="Letter 10">
+                <div class="card-body">
+                  <h5 class="card-title">Letter 10</h5>
+                  <p class="card-text">To: <strong>George Brown Burgin</strong> </p>
+                  <p class="card-text">From: <strong>Arthur Conan Doyle</strong></p>
+                  <p class="card-text">Year:<strong>1900</strong></p>
+                  <p class="card-text">Misures: <strong>14 x 21 cm</strong></p>
+                  <p class="card-text">Transcription: <strong>Karolina Bergamo</strong></p>
+                  <a href="letter4.html" class="btn text-dark btn-outline-dark">Explore</a>
+                </div>
+              </div>
+              <div class="card">
+                <img src="immagini/11_1900.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Letter 11</h5>
+                  <p class="card-text">To: <strong>Mr Smith Elder & co.</strong> </p>
+                  <p class="card-text">From: <strong>Arthur Conan Doyle</strong></p>
+                  <p class="card-text">Year:<strong>1900</strong></p>
+                  <p class="card-text">Misures: <strong>12.7 x 19.8</strong></p>
+                  <p class="card-text">Transcription: <strong>Karolina Bergamo</strong></p>
+                  <a href="letter5.html" class="btn text-dark btn-outline-dark">Explore</a>
+                </div>
+              </div>
+              <div class="card">
+                <img src="immagini/12_1900.jpg" class="card-img-top" alt="...">
+                <br>
+                <br>
+                <div class="card-body">
+                  <h5 class="card-title">Letter 12</h5>
+                  <p class="card-text">To: <strong>Irvine Burns Club</strong> </p>
+                  <p class="card-text">From: <strong>Arthur Conan Doyle</strong></p>
+                  <p class="card-text">Year:<strong>1900</strong></p>
+                  <p class="card-text">Misures: <strong>14 x 21 cm</strong></p>
+                  <p class="card-text">Transcription: <strong>Karolina Bergamo</strong></p>
+                  <a href="letter6.html" class="btn text-dark btn-outline-dark">Explore</a>
+                </div>
+              </div>
+            </div>
+            <br>
+            <nav aria-label="Page navigation example">
+              <ul class="pagination justify-content-center">
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                  </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="letters.html">1</a></li>
+                <li class="page-item"><a class="page-link" href="letters2.html">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class=col-md-1></div>
+        </div>
+        <br>
+        <br>
+      </section>
+
+    <section id="background">
+      <br>
+      <br>
+      <br>
+      <br>
+    </section>
+    <br>    
+
+    <footer>
+      <div class="backbiblio container-fluid">
+        <div class="container">
+          <form>
+            <div class="form-group">
+              <p>For more info fill the form or visit the <a href="#">contact</a> section.</p>
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <small id="emailHelp" class="form-text">We won't share your email with anyone. We won't use your email for commercial purposes.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Text</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">I approve the Privacy Section</label>
+            </div>
+            <button type="submit" class="btn btn-outline-dark btn-sm" id="bottone">Send</button>
+          </form>
+        </div>
+      </div>
+      <div class="nero container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+            <br>
+              <p class="text">The project has been realized by Erica Andreose, Karolina Bergamo, Maria Levchenko, Alka Rana, for the course of <em>Scholarly Editing and Digital Textuality</em> in DHDK Master Degree (UNIBO). The project aims to catalog and transcribe the handwritten letters of Sir Arthur Conan Doyle during his service in the Boer War (1899-1902). </p>
+              <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/" target="_blank"><img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png"></a>
+            <br>
+              <p class="text">This work is distributed with the license <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/" target="_blank">Creative Commons Attribuzione - Non commerciale - Non opere derivate 3.0 Unported</a>.</p>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-5">
+              <br>
+              <h3 class="text">Contact</h3>
+              <p><a href="https://www.unibo.it/it" target="_blank">Alma Mater Studiorum Università di Bologna</a></p>
+              <p><a href="https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge" target="_blank">Digital Humanities and Digital Knowledge</a></p>
+              <p><a href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2022/478833" target="_blank">Scholarly Editing and Digital Textuality</a></p>
+            </div>
+          </div>
+            <a href="#su"><button type="button" class="btn btn-outline-dark btn-sm" id="bottone">Back to the top</button></a>
+        </div>
+      </div>
+      <div class="container-fluid bg-light">
+        <p class="text-center text-dark mb-0 p-2">&copy; Copyright 2023 Erica Andreose, Karolina Bergamo, Maria Levchenko, Alka Rana - SEDT project - DHDK - Alma Mater Studiorum Bologna</p>
+      </div>
+    </footer>
+
+    <!-- js di Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

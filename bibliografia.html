@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="DC.Title" content="I tre antifonari di Chioggia">
+    <meta name="DC.Creator" content="Erica Andreose">
+    <meta name="DC.Subject" content="markup languages">
+    <meta name="DC.Subject" content="XML-DC/XML-TEI">
+    <meta name="DC.Subject" content="collezione digitale">
+    <meta name="DC.Subject" schema="UDC" content="Arte medievale">
+    <meta name="DC.Subject" schema="BNCF" content="Antifonario">
+    <meta name="DC.Subject" schema="BNCF" content="Miniatura">
+    <meta name="DC.Description" content="Progetto di DH. Raccolta digitale  volta allo studio e all'esplorazione del contenuto testuale e artistico degli antifonari miniati della Biblioteca Diocesana di Chioggia.">
+    <meta name="DC.Publisher" content="Alma mater studiorum, Università di Bologna, Arti Visive">
+    <meta name="DC.Contributor" content="Erica Andreose">
+    <meta name="DC.Date" content="2021-09-08">
+    <meta name="DC.Type" content="Sito web">
+    <meta name="DC.Format" content="HTML/CSS/JS/XML-DC/XML-TEI">
+    <meta name="DC.Identifier" content="https://ericaandreose.github.io/i-tre-antifonari-di-chioggia/">
+    <meta name="DC.Language" content="it">
+    <meta name="DC.Relation" content="https://www.nuovabibliotecamanoscritta.it/index.html?language=IT">
+    <meta name="DC.Rights" content="http://poloculturale.diocesidichioggia.it/biblioteca-diocesana/">
+
+    <!--CSS di Bootstrap-->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <!-- link foglio di stile-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--link icone di Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!--link icone google-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--link favicon per loghetto -->
+    <link rel="icon" href="favicon.jpg" type="immagini/jpg"/>
+    <!--link per font google-->
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
+    <!-- icons W3School -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title> Antifonari miniati di Chioggia </title>
+  </head>
+
+  <body class="body">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#"><h1 id="su"> I tre antifonari di Chioggia</h1></a>
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Introduzione
+              </a>
+              <div class="dropdown-menu bg-dark text-white" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item bg-dark text-white" href="#">Il progetto</a>
+                <a class="dropdown-item bg-dark text-white" href="#">Storia della Biblioteca</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Catalogo Testi
+              </a>
+              <div class="dropdown-menu bg-dark text-white" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item bg-dark text-white" href="catalogotesti.html">Tutte le Antifone</a>
+                <a class="dropdown-item bg-dark text-white" href="#">Festività</a>
+                <a class="dropdown-item bg-dark text-white" href="#">Santorale</a>
+                <a class="dropdown-item bg-dark text-white" href="#">Schede di catalogo</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Catalogo Miniature
+              </a>
+              <div class="dropdown-menu bg-dark text-white" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item bg-dark text-white" href="catalogominiature.html">Lista</a>
+                <a class="dropdown-item bg-dark text-white" href="#">Personaggi</a>
+                <a class="dropdown-item bg-dark text-white" href="#">Decorazioni</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">|</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contatti</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="sto cercando..." placeholder="sto cercando..." aria-label="sto cercando...">
+            <button class="btn btn-outline-light" type="submit">Cerca</button>
+          </form>
+        </div>
+      </nav>
+
+      <div class="container-fluid" id="dark">
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col-md-10">
+            <h2 class="text-light text-center">Bibliografia</h2>
+            <h4 class="text-light text-center">Maestro del Pontificale Dandolo</h4>
+          </div>
+          <div class="col-md-1">
+            <a href="#" style="color: white;"><i class="bi bi-patch-question-fill"></i>Guida</a>
+          </div>
+        </div>
+
+        <!-- breadcrumb -->
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb" id="dark">
+            <li class="breadcrumb-item"><a href="index.html" title="Torna alla Home">Home</a></li>
+            <li class="breadcrumb-item"><a href="catalogominiature.html" title="Torna al catalogo">Catalogo Miniature Lista</a></li>
+            <li class="breadcrumb-item text-white"><a href="itemminiatura.html">"L" con Santa Lucia</a></li>
+            <li class="breadcrumb-item text-white"><a href="itempersona.html">Maestro del Pontificale Dandolo</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Bibliografia</li>
+          </ol>
+        </nav>
+      </div>
+    </header>
+
+
+    <section id="background">
+    <br>
+
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card ">
+                <div class="card-header text-center bg-dark text-light">Elenco testi in cui viene citato l'artista: </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><a href="http://id.sbn.it/bid/VEA0108645" target="_blank">Baldissin Molli G., Toniolo F., Mariani Canova G., 1999, <cite>Parole Dipinte. La miniatura a Padova dal Medioevo al Settecento</cite>, Modena, Franco Cosimo Panini, pp. 234-235</a></li>
+                    <li class="list-group-item">Benetazzo M., 2001, <cite>Tre antifonari miniati del Seminario Vescovile di Chioggia</cite>, Università degli studi di Udine</li>
+                    <li class="list-group-item"><a href="http://id.sbn.it/bid/LO10885048" target="_blank">Bollati M., 2004, <cite>Dizionario biografico dei miniatori italiani, secoli IX-XVI</cite>, Milano, Sylvestre Bonnard, pp. 653-655</a></li>
+                    <li class="list-group-item"><a href="http://id.sbn.it/bid/PUV0556844" target="_blank">Montobbio L., 1973,<cite> Miniatori, "scriptores", rilegatori di libri della Cattedrale di Padova nel secolo XV</cite>, Padova, Tipografia Antoniana, pp. 103-107</a></li>
+                    <li class="list-group-item"><a href="http://opac.regesta-imperii.de/id/2274175" target="_blank">Pandolfo A., 2015, <cite>I libri corali della chiesa dei santi Geremia e Lucia a Venezia</cite>, in Arte veneta 70, Milano, Electa, pp.156-158</a></li>
+                    <li class="list-group-item">Rigoni C., 1987, <cite>I codici miniati della chiesa di San Francesco a Schio</cite>, Schio, Comune di Schio</li>
+                  </ul>
+                </div>
+              </div>      
+           </div>
+          </div>
+        </div>
+        <br>
+      </div>
+   
+ 
+    <!-- footer -->
+    <footer>
+      <div class="backbiblio container-fluid">
+        <div class="container">
+          <form>
+            <div class="form-group">
+              <p>Per informazioni compila il modulo sottostante o visita la nostra sezione <a href="#">contatti</a>.</p>
+              <label for="exampleInputEmail1">Indirizzo Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <small id="emailHelp" class="form-text">Non condivideremo il tuo indirizzo email con nessuno.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Testo</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Accetto l'informativa sulla privacy</label>
+            </div>
+            <button type="submit" class="btn btn-outline-dark btn-sm" id="bottone">Invia</button>
+          </form>
+        </div>
+      </div>
+      <div class="nero container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+              <br>
+              <p class="text">Il progetto è stato realizzato per la prova finale del corso di laurea magistrale in <em>Arti Visive</em> dell'Università di Bologna (2021/2022). Il sito è un portale per la ricerca e lo studio dei tre corali della Biblioteca Diocesa di Chioggia. </p>
+              <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/" target="_blank"><img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png"></a>
+              <br>
+              <p class="text">Quest'opera è distribuita con Licenza <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/" target="_blank">Creative Commons Attribuzione - Non commerciale - Non opere derivate 3.0 Unported</a>.</p>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-5">
+              <br>
+              <h3 class="text">Contatti</h3>
+              <p><a href="https://www.unibo.it/it" target="_blank">Alma Mater Studiorum Università di Bologna</a></p>
+              <p><a href="https://corsi.unibo.it/magistrale/artivisive" target="_blank">Dipartimento di Arti Visive</a></p>
+              <p><a href="https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2020/423307" target="_blank">Digital Humanities e Patrimonio Culturale</a></p>
+            </div>
+          </div>
+            <a href="#su"><button type="button" class="btn btn-outline-dark btn-sm" id="bottone">Torna su</button></a>
+        </div>
+      </div>
+      <div class="container-fluid bg-light">
+        <p class="text-center text-dark mb-0 p-2">&copy; Copyright 2021 Erica Andreose - Progetto di DH - Arti Visive - Alma Mater Studiorum Bologna</p>
+      </div>
+    </footer>
+
+    <!-- js di Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
