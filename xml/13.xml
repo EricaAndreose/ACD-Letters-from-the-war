@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tei xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from A. Conan Doyle to Professor Herrlich</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Arthur Conan Doyle Correspondence Project</authority>
+                <publisher>DHDK Project</publisher>
+                <pubPlace>Bologna</pubPlace>
+                <idno type="lognum">013</idno>
+                <date when="2022">2022</date>
+                <availability xml:id="rights" status="free">
+                    <p>In the public domain</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>https://www.arthur-conan-doyle.com/index.php/File:Greeting-photo-1900-12-conan-doyle-waterval-prisoner-s-tunnel2.jpg</p>
+            </sourceDesc>
+        </fileDesc>
+        <objectDesc>
+            <layoutDesc>
+                <layout>The postcard with the photo of Artur Conan Doyle.</layout>
+            </layoutDesc>
+        </objectDesc>
+        <encodingDesc>
+            <p>Encoded according to the TEI P5 guidelines</p>
+        </encodingDesc>
+        <profileDesc>
+            <listPerson>
+                <person xml:id="ACD" type="author">
+                    <idno type="VIAF">https://viaf.org/viaf/65283845/</idno>
+                    <idno type="LC">https://id.loc.gov/authorities/names/n79082292</idno>
+                    <persName>Arthur Conan Doyle</persName>
+                </person>
+            </listPerson>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#ACD">Arthur Conan Doyle</persName>
+                    <date when="1900-12-20">1900</date>
+                    <placeName type="sentFrom">South Africa</placeName>
+                </correspAction>
+            </correspDesc>
+            <abstract>
+                <p>A. Conan Doyle's greetings Christmas card with his photo.</p>
+            </abstract>
+            <keywords>
+                <list>
+                    <item>A. Conan Doyle</item>
+                    <item>Christmas</item>
+                    <item>South Africa</item>
+                    <item>British Empire</item>
+                </list>
+            </keywords>
+        </profileDesc>
+
+    </teiHeader>
+    <text>
+        <body>
+            <div type="postcard">
+                <p>Xmas wishes</p>
+                <p>Getting out of a hole in South Africa - </p>
+                <p>like the British Empire</p>
+                <signed>
+                    <signature>AConan Doyle</signature>
+                </signed>
+            </div>
+        </body>
+    </text>
+</tei>

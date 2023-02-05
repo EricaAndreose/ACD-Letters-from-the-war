@@ -29,80 +29,85 @@
             </layoutDesc>
         </objectDesc>
         <profileDesc>
-        <particDesc>
-            <listPerson>
-                <person xml:id="ACD">
-                    <idno type="VIAF">https://viaf.org/viaf/65283845/</idno>
-                    <idno type="LC">https://id.loc.gov/authorities/names/n79082292</idno>
-                    <persName>Arthur Conan Doyle</persName>
-                </person>
-                <person xml:id="GS">
-                    <idno type="VIAF">https://viaf.org/viaf/94427281/</idno>
-                    <idno type="LC">https://id.loc.gov/authorities/names/no2016162706</idno>
-                    <persName>Greenhough Smith</persName>
-                </person>
-            </listPerson>
-        </particDesc>
-        <settingDesc>
-            <listPlace>
-                <place xml:id="L">
-                <placeName>London</placeName>
-                </place>
-            </listPlace>
-        </settingDesc>
-        <correspDesc>
-            <correspAction type="sent">
-                <persName ref="#ACD"/>
-                <placeName ref="#L"/>
-                <date when="1901"/>
-            </correspAction>
-            <correspAction type="received">
-                <persName ref="#GS"/>
-            </correspAction>
-        </correspDesc>
-        <abstract>
-            <p>Writes about rights on The Hund of the Baskervilles.</p>
-        </abstract>
-        <textClass>
-            <keywords>
-                <term ref="#"> The Hound of the Baskervilles</term>
-                <term ref="#">United States of America</term>
-                <term ref="#">rights</term>
-                <term type="places" ref="#L">London</term>
-            </keywords>
-        </textClass>
-    </profileDesc>
-    
+            <particDesc>
+                <listPerson>
+                    <person xml:id="ACD">
+                        <idno type="VIAF">https://viaf.org/viaf/65283845/</idno>
+                        <idno type="LC">https://id.loc.gov/authorities/names/n79082292</idno>
+                        <persName>Arthur Conan Doyle</persName>
+                    </person>
+                    <person xml:id="GS">
+                        <idno type="VIAF">https://viaf.org/viaf/94427281/</idno>
+                        <idno type="LC">https://id.loc.gov/authorities/names/no2016162706</idno>
+                        <persName>Greenhough Smith</persName>
+                    </person>
+                </listPerson>
+            </particDesc>
+            <settingDesc>
+                <listPlace>
+                    <place xml:id="L">
+                        <placeName>London</placeName>
+                    </place>
+                </listPlace>
+            </settingDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#ACD"/>
+                    <placeName ref="#L"/>
+                    <date when="1901"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#GS"/>
+                </correspAction>
+            </correspDesc>
+            <abstract>
+                <p>Writes about rights on The Hund of the Baskervilles.</p>
+            </abstract>
+            <textClass>
+                <keywords>
+                    <term ref="#"> The Hound of the Baskervilles</term>
+                    <term ref="#">United States of America</term>
+                    <term ref="#">rights</term>
+                    <term type="places" ref="#L">London</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
     </teiHeader>
     <text>
-    <body>
-        <div type="letter">
-            <div type="text">
-                <fw type="letterhead" place="top-right" corresp="#mh">
-                    <dateline>
-                        <name type="place" ref="#L">
-                            <p>Morley’s Hotel.</p>
-                            <p>Trafalgar Square.</p>
-                            <p>London. W.C.</p>
-                        </name>
-                    </dateline>
-                </fw>
-                <div type="transcription">
-                    <opener>
-                        <salute>My dear <name type="person" ref="#GS">Smith</name></salute>
-                    </opener>
-                    <p>Watt tells me there are several eager buyers from America for the serial rights of "The Hound". I daresay you could recoup yourself for most of your outlay if you choose to resell. I will refer him to you.</p>
-                    <p>I presume that I am not rigidly tied to 50,000 words in the serial, and that if the development of the story should require a few thousand more I am not debarred from charging for them. I could only give an approximate length until I came to write it, and I might possibly run to a few more than I thought at first.</p>
-                    <p>I send with this the 4th and 5th instalments, the latter consisting of one long chapter. I write under some difficulty through not having any of the proofs, so I cannot refer back. I want a copy of the proofs of No 1 in its primal form, and I want Nos 2, 3, 4 and 5 in any form.</p>
-                    <p>Just send me a card to say that you have had these.</p>
-                    <closer>
-                        <p>With all kind regards</p>
-                        <p>Yours very truly</p>
-                        <p><signed><name type="person" ref="#ACD">A Conan Doyle</name>.</signed></p>
-                    </closer>
+        <body>
+            <div type="letter">
+                <div type="text">
+                    <fw type="letterhead" place="top-right" corresp="#mh">
+                        <dateline>
+                            <name type="place" ref="#L">
+                                <p>Morley’s Hotel.</p>
+                                <p>Trafalgar Square.</p>
+                                <p>London. W.C.</p>
+                            </name>
+                        </dateline>
+                    </fw>
+                    <div type="transcription">
+                        <opener>
+                            <salute>My dear <name type="person" ref="#GS">Smith</name>
+                            </salute>
+                        </opener>
+                        <p>Watt tells me there are several eager buyers from America for the serial rights of "The Hound". I daresay you could recoup yourself for most of your outlay if you choose to resell. I will refer him to you.</p>
+                        <p>I presume that I am not rigidly tied to 50,000 words in the serial, and that if the development of the story should require a few thousand more I am not debarred from charging for them. I could only give an approximate length until I came to write it, and I might possibly run to a few more than I thought at first.</p>
+                        <p>I send with this the 4th and 5th instalments, the latter consisting of one long chapter. I write under some difficulty through not having any of the proofs, so I cannot refer back. I want a copy of the proofs of No 1 in its primal form, and I want Nos 2, 3, 4 and 5 in any form.</p>
+                        <p>Just send me a card to say that you have had these.</p>
+                        <closer>
+                            <p>With all kind regards</p>
+                            <p>Yours very truly</p>
+                            <p>
+                                <signed>
+                                    <name type="person" ref="#ACD">A Conan Doyle</name>.
+                                </signed>
+                            </p>
+                        </closer>
+                    </div>
+                </div>
             </div>
-        </div>
-        </div>
-    </body>
+        </body>
     </text>
 </TEI>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from A. Conan Doyle to Dr Ernst</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Arthur Conan Doyle Correspondence Project</authority>
+                <publisher>DHDK Project</publisher>
+                <pubPlace>Bologna</pubPlace>
+                <idno type="lognum">016</idno>
+                <date when="2022">2022</date>
+                <availability xml:id="rights" status="free">
+                    <p>In the public domain</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>https://www.arthur-conan-doyle.com/index.php?title=Letter_to_Dr._Ernst_about_The_War_in_South_Africa</p>
+            </sourceDesc>
+        </fileDesc>
+        <objectDesc>
+            <layoutDesc>
+                <layout>Two pages, written in black ink on both sides.</layout>
+            </layoutDesc>
+        </objectDesc>
+        <encodingDesc>
+            <p>Encoded according to the TEI P5 guidelines</p>
+        </encodingDesc>
+        <profileDesc>
+            <listPerson>
+                <person xml:id="ACD" type="author">
+                    <idno type="VIAF">https://viaf.org/viaf/65283845/</idno>
+                    <idno type="LC">https://id.loc.gov/authorities/names/n79082292</idno>
+                    <persName>Arthur Conan Doyle</persName>
+                </person>
+                <person xml:id="ernst" type="recipient">
+                    <persName>Dr Ernst</persName>
+                    <note>London representative of the Viennese newspaper Neues Tagblatt, recipient of the letter</note>
+                </person>
+                <person xml:id="bloch" type="publisher">
+                    <persName>Bloch of Pottsdammer Strasse, Berlin</persName>
+                    <note>German publisher mentioned in the letter</note>
+                </person>
+            </listPerson>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#ACD">Arthur Conan Doyle</persName>
+                    <date when="1902-00-00">1902</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#ernst">Dr Ernst</persName>
+                </correspAction>
+            </correspDesc>
+            <abstract>
+                <p>A. Conan Doyle informs Dr Ernst that he will soon receive proofs of the book and will send the whole set. He also mentions a preface for the book and mentions that the book has been described as 'ce mechant livre' in a Boer paper called 'Petit-Bleu'.</p>
+            </abstract>
+            <keywords>
+                <list>
+                    <item>A. Conan Doyle</item>
+                    <item>Dr Ernst</item>
+                </list>
+            </keywords>
+        </profileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="letter">
+                <fw type="letterhead" place="top-left" corresp="#Grayshott">
+                    <dateline>
+                        <name type="place" ref="#Grayshott">
+                            <p>Telegrams:</p>
+                            <p>Grayshott</p>
+                        </name>
+                    </dateline>
+                </fw>
+                <fw type="letterhead" place="top-right">
+                    <dateline>
+                        <name type="place" ref="#Hinhead">
+                            <p>Undershaw,</p>
+                            <p>Hinhead,</p>
+                            <p>Haslemere.</p>
+                        </name>
+                    </dateline>
+                </fw>
+                <opener>
+                    <salute>My dear Dr Ernst</salute>
+                </opener>
+                <p>You shall have the proofs very soon. I will send the whole set in the hope that you may find other suitable extracts. "The Concentration Camps" for example. I hope my slow translator is at last nearing the end.</p>
+                <p>The preface is excellent. But surely it should be 'Deutscher' where I have marked it. I want Austrians to get the whole book for themselves, and should be glad to tell them that it is published by <persName ref="#bloch">Bloch of Pottsdammer Strasse, Berlin</persName>.
+                </p>
+                <p>We separated too soon the other night. I went round to the National Sporting Club, and as the boxing was very good I regretted that you were not with me. But perhaps that is a side of life which does not interest you.</p>
+                <p>I see that the Boer paper 'Petit-Bleu' describes my book as 'ce mechant livre' which is a good sign.</p>
+                <closer>
+                    <salute>With all kind regards, my dear Doctor Ernst.</salute>
+                    <signed>
+                        <persName ref="#ACD">A. Conan Doyle</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
