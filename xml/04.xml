@@ -9,7 +9,7 @@
                 <authority>Arthur Conan Doyle Correspondence Project</authority>
                 <publisher>DHDK Project</publisher>
                 <pubPlace>Bologna</pubPlace>
-                <idno type="lognum">014</idno>
+                <idno type="lognum">04</idno>
                 <date when="2022">2022</date>
                 <availability xml:id="rights" status="free">
                     <p>In the public domain</p>
@@ -17,7 +17,7 @@
             </publicationStmt>
             <seriesStmt>
                 <title level="s">The Correspondence of Arthur Conan Doyle</title>
-                <biblScope unit="vol" n="014">14</biblScope>
+                <biblScope unit="vol" n="04">04</biblScope>
             </seriesStmt>
             <sourceDesc>
                 <p>https://www.arthur-conan-doyle.com/index.php?title=Letter_to_Mr_G_B_Burgin_(1900)</p>
