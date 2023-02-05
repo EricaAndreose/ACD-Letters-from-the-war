@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from A. Conan Doyle to Professor Herrlich</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Arthur Conan Doyle Correspondence Project</authority>
+                <publisher>DHDK Project</publisher>
+                <pubPlace>Bologna</pubPlace>
+                <idno type="lognum">015</idno>
+                <date when="2022">2022</date>
+                <availability xml:id="rights" status="free">
+                    <p>In the public domain</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>https://www.arthur-conan-doyle.com/index.php?title=Letter_about_Professor_Herrlich</p>
+            </sourceDesc>
+        </fileDesc>
+        <objectDesc>
+            <layoutDesc>
+                <layout>One page, written in black ink on one side only.</layout>
+            </layoutDesc>
+        </objectDesc>
+        <encodingDesc>
+            <p>Encoded according to the TEI P5 guidelines</p>
+        </encodingDesc>
+        <profileDesc>
+            <listPerson>
+                <person xml:id="ACD" type="author">
+                    <idno type="VIAF">https://viaf.org/viaf/65283845/</idno>
+                    <idno type="LC">https://id.loc.gov/authorities/names/n79082292</idno>
+                    <persName>Arthur Conan Doyle</persName>
+                </person>
+                <person xml:id="herrlich" type="recipient">
+                    <persName>Professor Herrlich</persName>
+                    <note>Recipient of the letter, not much is known about him</note>
+                </person>
+                <person xml:id="bloch" type="publisher">
+                    <persName>Bloch of Pottsdammer Strasse, Berlin</persName>
+                    <note>German publisher mentioned in the letter</note>
+                </person>
+            </listPerson>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#ACD">Arthur Conan Doyle</persName>
+                    <date when="1902-00-00">1902</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#PH">Professor Herrlich</persName>
+                </correspAction>
+            </correspDesc>
+            <abstract>
+                <p>A. Conan Doyle thanks Professor Herrlich for a kind letter and offers to answer any questions the professor may have, though he doesn't think he can add much to what he has said in his book. He also acknowledges help received from Germans in England.</p>
+            </abstract>
+            <keywords>
+                <list>
+                    <item>A. Conan Doyle</item>
+                    <item>Professor Herrlich</item>
+                    <item>Germans in England</item>
+                    <item>Eloff correction</item>
+                </list>
+            </keywords>
+        </profileDesc>
+
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <fw type="letterhead" place="top-left" corresp="#Grayshott">
+                    <dateline>
+                        <name type="place" ref="#Grayshott">
+                            <p>Telegrams:</p>
+                            <p>Grayshott</p>
+                        </name>
+                    </dateline>
+                </fw>
+                <fw type="letterhead" place="top-right">
+                    <dateline>
+                        <name type="place" ref="#Hinhead">
+                            <p>Undershaw,</p>
+                            <p>Hinhead,</p>
+                            <p>Haslemere.</p>
+                        </name>
+                    </dateline>
+                </fw>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>Very many thanks for your kind letter. Since I wrote in The Times I have received much help from the Germans in England which I shall acknowledge when I write again.</p>
+                <p>I should be delighted to answer any question of Professor <persName ref="#herrlich">Herrlich</persName>, but I don't know what I can add much to what I have said in the book. I was glad to see about the Eloff correction.</p>
+                <closer>
+                    <salute>With all thanks to your two friends and yourself.</salute>
+                    <signed>
+                        <persName ref="#ACD">A. Conan Doyle</persName>
+                    </signed>
+                </closer>
+                <note>
+                    <persName ref="#bloch">Bloch of Pottsdammer Strasse, Berlin</persName> is the German publisher in case you want copies.</note>
+            </div>
+        </body>
+    </text>
+</TEI>
