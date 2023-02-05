@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="main_title">To Mr G_B_Burgin </title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Arthur Conan Doyle Correspondence Project</authority>
+                <publisher>DHDK Project</publisher>
+                <pubPlace>Bologna</pubPlace>
+                <idno type="lognum">014</idno>
+                <date when="2022">2022</date>
+                <availability xml:id="rights" status="free">
+                    <p>In the public domain</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">The Correspondence of Arthur Conan Doyle</title>
+                <biblScope unit="vol" n="014">14</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+                <p>https://www.arthur-conan-doyle.com/index.php?title=Letter_to_Mr_G_B_Burgin_(1900)</p>
+            </sourceDesc>
+        </fileDesc>
+        <objectDesc>
+            
+        </objectDesc>
+        <profileDesc>
+        <particDesc>
+            <listPerson>
+                <person xml:id="ACD">
+                    <idno type="VIAF">https://viaf.org/viaf/65283845/#Doyle,_Arthur_Conan,_1859-1930</idno>
+                    <idno type="LC">https://id.loc.gov/authorities/names/n79082292</idno>
+                    <persName>Arthur Conan Doyle</persName>
+                </person>
+                <person xml:id="GS">
+                    <idno type="VIAF">https://viaf.org/viaf/21295076/#Burgin,_George_Brown_(1856-1944)</idno>
+                    <idno type="NPG">https://www.npg.org.uk/collections/search/person/mp76625/george-brown-burgin</idno>
+                    <persName>G_B_Burgin</persName>
+                </person>
+            </listPerson>
+        </particDesc>
+        <settingDesc>
+            <listPlace>
+                <place xml:id="L">
+                <placeName>London</placeName>
+                </place>
+            </listPlace>
+        </settingDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName ref="#ACD"/>
+                <placeName ref="#L"/>
+                <date when="1900"/>
+            </correspAction>
+            <correspAction type="received">
+                <persName ref="#GS"/>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Discusses his interest in the 'Corps of Riflemen' </p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term ref="#"> Corps of Riflemen</term>
+                <term ref="#">United States of America</term>
+                <term ref="#">rights</term>
+                <term ref="#">Hornung, Peccavi</term>
+                <term type="places" ref="#L">London</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        <div type="letter">
+            <div type="text">
+                <fw type="letterhead" place="top-right" corresp="#mh">
+                    <dateline>
+                        <name type="place" ref="#L">
+                            <p>Undershaw</p>
+                            <p>Hindhead</p>
+                            <p>Haslemere</p>
+                        </name>
+                    </dateline>
+                </fw>
+                <div type="transcription">
+                    <opener>
+                        <salute> Dear <name type="person" ref="#GS">Burgin</name></salute>
+                    </opener>
+                    <p>I shall be here for Xmas. I am rather tied by the interest which I take in the Corps of Riflemen — a real commando of burghers — which I am forming here. I already have 60 and hope to get 100. I hope it will be part of a great movement. You could not do better than come down some shooting day, say next Saturday, spend a day here, and write the movement up in the Express. If its is known about, it will find imitators which is what I want.</p>
+
+                    <p>If you could make a paragraph to the effect that my relationship to Hornung had always prevented me from expressing in public the very high opinion which I have of the quality of his works, but that I had said in conversation (as I did to you) that I regarded "Peccavi" as a very fine and a very noble book, you would be doing us both a service.</p>
+
+                    <p>I'll let you know any literary news which occur to me. With your inside knowledge your literary column should be the best in London.</p>
+                    <closer>
+                        
+                        <p>Yours very truly</p>
+                        <p><signed><name type="person" ref="#ACD">A. C. D.</name></signed></p>
+                    </closer>
+            </div>
+        </div>
+        </div>
+    </body>
+    </text>
+</TEI>
