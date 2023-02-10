@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="main_title">To Major-General John Cecil Russell</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Arthur Conan Doyle Correspondence Project</authority>
+                <publisher>DHDK Project</publisher>
+                <pubPlace>Bologna</pubPlace>
+                <idno type="lognum">08</idno>
+                <date when="2022">2023</date>
+                <availability xml:id="rights" status="free">
+                    <p>In the public domain</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">The Correspondence of Arthur Conan Doyle</title>
+                <biblScope unit="vol" n="08">08</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+                <p>https://www.arthur-conan-doyle.com/index.php?title=Letter_to_John_Cecil_Russell_(Smith,_Elder_%26_Co.)</p>
+            </sourceDesc>
+        </fileDesc>
+        <objectDesc>
+            <layoutDesc>
+                <layout xml:id="mh">A letterhead is printed in the top right corner of the paper with the address of Sir Arthur Conan Doyle's former residence.</layout>
+            </layoutDesc>
+        </objectDesc>
+        <profileDesc>
+        <particDesc>
+            <listPerson>
+                <person xml:id="ACD">
+                    <idno type="VIAF">https://viaf.org/viaf/65283845/</idno>
+                    <idno type="LC">https://id.loc.gov/authorities/names/n79082292</idno>
+                    <persName>Arthur Conan Doyle</persName>
+                </person>
+                <person xml:id="JCR">
+                    <idno type="RCT">https://www.rct.uk/collection/2500962/major-john-cecil-russell-b-1839-12th-lancers</idno>
+                    <idno type="TBE">https://www.britishempire.co.uk/forces/10thhussarsjohnrussell.htm</idno>
+                    <persName>John Cecil Russel</persName>
+                </person>
+            </listPerson>
+        </particDesc>
+        <settingDesc>
+            <listPlace>
+                <place xml:id="H">
+                <placeName>Haslemere</placeName>
+                </place>
+            </listPlace>
+        </settingDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName ref="#ACD"/>
+                <placeName ref="#H"/>
+                <date when="1900"/>
+            </correspAction>
+            <correspAction type="received">
+                <persName ref="#JCR"/>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Writes about new views on the English Cavalry shared with the General John Cecil Russell.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term ref="#">Cavalry</term>
+                <term ref="#">Soth Africa</term>
+                <term ref="#">war</term>
+                <term type="places" ref="#L">London</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        <div type="letter">
+            <div type="text">
+                <fw type="letterhead" place="top-right" corresp="#H">
+                    <dateline>
+                        <name type="place" ref="#H">
+                            <p>Undershaw,</p>
+                            <p>Hindhead,</p>
+                            <p>Haslemere.</p>
+                        </name>
+                    </dateline>
+                </fw>
+                <div type="transcription">
+                    <opener>
+                        <salute>My dear <name type="person" ref="#JCR">Russell</name></salute>
+                    </opener>
+                    <p>I shall be afraid to meet you when </p>
+                    <p>you have read my views about Cavalry. I </p>
+                    <p>fear you will think me an awful heretic. But </p>
+                    <p>change in arms must bring about new </p>
+                    <p>conditions to correspond, and I think the </p>
+                    <p>man must get off his horse to fight.</p>
+                    <p>I should love to come down to see you</p>
+                    <p>all but I have hardly been at home atall</p>
+                    <p>since my return from Africa, and so I </p>
+                    <p>must for a month or two remain here and </p>
+                    <p>gather up the threads of my life. Otherwise I </p>
+                    <p>should have been much delighted to come to </p>
+                    <p>you.</p>
+                    <closer>
+                        <p>With all kind remembrances</p>
+                        <p>Yours very truly</p>
+                        <p><signed><name type="person" ref="#ACD">A Conan Doyle</name>.</signed></p>
+                    </closer>
+            </div>
+        </div>
+        </div>
+    </body>
+    </text>
+</TEI>
